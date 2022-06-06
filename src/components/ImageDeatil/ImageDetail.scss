@@ -1,0 +1,19 @@
+.detail-container {
+  &__image {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .ant-image-img {
+      border-radius: 20px;
+    }
+  }
+  .detail-text {
+    color: rgb(253, 80, 80);
+  }
+
+  .ant-btn-default {
+    display: none;
+  }
+}
